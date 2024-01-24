@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65412
+52305
 Successfully changed project path to: /Users/ulijlapin/Runer
 /Users/ulijlapin/Runer
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/ulijlapin/Runer
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4744889856] Host "[IP] 192.168.0.117 [Port] 0 [Flags] 2 [Guid] 1304856573 [EditorId] 1304856573 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Ulij.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4691846656] Host "[IP] 192.168.0.117 [Port] 0 [Flags] 2 [Guid] 4194769591 [EditorId] 4194769591 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Ulij.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4744889856] Host "[IP] 192.168.0.117 [Port] 0 [Flags] 2 [Guid] 1304856573 [EditorId] 1304856573 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Ulij.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4691846656] Host "[IP] 192.168.0.117 [Port] 0 [Flags] 2 [Guid] 4194769591 [EditorId] 4194769591 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Ulij.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
-Refreshing native plugins compatible for Editor in 12.25 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 8.23 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.8f1 (b5eafc012955)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,49 +76,49 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56235
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.018361 seconds.
-- Loaded All Assemblies, in  1.546 seconds
+Registered in 0.004276 seconds.
+- Loaded All Assemblies, in  1.174 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 394 ms
+Android Extension - Scanning For ADB Devices 197 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.923 seconds
-Domain Reload Profiling: 3472ms
-	BeginReloadAssembly (413ms)
+- Finished resetting the current domain, in  1.038 seconds
+Domain Reload Profiling: 2212ms
+	BeginReloadAssembly (256ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (130ms)
-	RebuildNativeTypeToScriptingClass (44ms)
-	initialDomainReloadingComplete (224ms)
-	LoadAllAssembliesAndSetupDomain (735ms)
-		LoadAssemblies (413ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (155ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (177ms)
+	LoadAllAssembliesAndSetupDomain (552ms)
+		LoadAssemblies (257ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (729ms)
-			TypeCache.Refresh (724ms)
-				TypeCache.ScanAssembly (663ms)
+		AnalyzeDomain (546ms)
+			TypeCache.Refresh (541ms)
+				TypeCache.ScanAssembly (504ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1925ms)
+	FinalizeReload (1039ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1635ms)
+		SetupLoadedEditorAssemblies (845ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (919ms)
-			SetLoadedEditorAssemblies (21ms)
+			InitializePlatformSupportModulesInManaged (470ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (492ms)
-			ProcessInitializeOnLoadMethodAttributes (198ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (166ms)
+			ProcessInitializeOnLoadMethodAttributes (200ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -126,8 +126,8 @@ Domain Reload Profiling: 3472ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.344 seconds
-Refreshing native plugins compatible for Editor in 4.42 ms, found 2 plugins.
+- Loaded All Assemblies, in  1.013 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -136,48 +136,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.619 seconds
-Domain Reload Profiling: 3968ms
-	BeginReloadAssembly (230ms)
+- Finished resetting the current domain, in  1.082 seconds
+Domain Reload Profiling: 2096ms
+	BeginReloadAssembly (224ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (58ms)
+		CreateAndSetChildDomain (54ms)
 	RebuildCommonClasses (67ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (965ms)
-		LoadAssemblies (444ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (633ms)
+		LoadAssemblies (417ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (627ms)
-			TypeCache.Refresh (525ms)
-				TypeCache.ScanAssembly (466ms)
-			ScanForSourceGeneratedMonoScriptInfo (72ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (2620ms)
+		AnalyzeDomain (326ms)
+			TypeCache.Refresh (291ms)
+				TypeCache.ScanAssembly (267ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1083ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1787ms)
+		SetupLoadedEditorAssemblies (784ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (96ms)
-			SetLoadedEditorAssemblies (20ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (195ms)
-			ProcessInitializeOnLoadAttributes (1364ms)
-			ProcessInitializeOnLoadMethodAttributes (109ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (136ms)
+			ProcessInitializeOnLoadAttributes (574ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.18 seconds
-Refreshing native plugins compatible for Editor in 1.69 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3100 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (53.9 KB). Loaded Objects now: 3582.
-Memory consumption went from 243.5 MB to 243.5 MB.
-Total: 7.267839 ms (FindLiveObjects: 0.487441 ms CreateObjectMapping: 0.487336 ms MarkObjects: 6.126528 ms  DeleteObjects: 0.164850 ms)
+Unloading 31 unused Assets / (55.6 KB). Loaded Objects now: 3582.
+Memory consumption went from 243.6 MB to 243.6 MB.
+Total: 4.677293 ms (FindLiveObjects: 0.617981 ms CreateObjectMapping: 0.274158 ms MarkObjects: 3.617071 ms  DeleteObjects: 0.163788 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -194,162 +194,809 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 233232.161141 seconds.
-  path: Assets/Prefabs/обрезаная стрелочка.png
-  artifactKey: Guid(9af7af568e5874746a549c9271a8885d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/обрезаная стрелочка.png using Guid(9af7af568e5874746a549c9271a8885d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'd5e3657ee48f18bb97feb1d61b55a43c') in 0.280552 seconds
+  Time since last request: 268591.448549 seconds.
+  path: Assets/Prefabs/bus_1_yellow.prefab
+  artifactKey: Guid(db06013019b784d86869bba23304b3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/bus_1_yellow.prefab using Guid(db06013019b784d86869bba23304b3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '0eb75392051f2238b4e518ddebfeb612') in 0.681689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 70
+========================================================================
+Received Import Request.
+  Time since last request: 171.196497 seconds.
+  path: Assets/Assets/ARCADE - FREE Racing Car/Textures/AFRC_Env_Mat.png
+  artifactKey: Guid(34a74330fac842a4f97649ddf77d6d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ARCADE - FREE Racing Car/Textures/AFRC_Env_Mat.png using Guid(34a74330fac842a4f97649ddf77d6d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'fc0c30e5d7934b3f7b34806df28fac7c') in 0.042776 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Prefabs/сердечко.png
-  artifactKey: Guid(f8b273116f1094f959d1efb00038b448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/сердечко.png using Guid(f8b273116f1094f959d1efb00038b448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '8ab010244e618b4aa51830e4c3dce935') in 0.095630 seconds
+  Time since last request: 0.001544 seconds.
+  path: Assets/Assets/asset_free_Ukraine_cars/textures/all colors.png
+  artifactKey: Guid(39f2d4748dc80fe43abc24ff517a5af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/asset_free_Ukraine_cars/textures/all colors.png using Guid(39f2d4748dc80fe43abc24ff517a5af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'aced606326ecb9799b3d6472ac035ce7') in 0.023848 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.296385 seconds.
-  path: Assets/Prefabs/обрезаная стрелочка.png
-  artifactKey: Guid(9af7af568e5874746a549c9271a8885d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/обрезаная стрелочка.png using Guid(9af7af568e5874746a549c9271a8885d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '967a23ee242d18e86aabc6650cf0d586') in 0.014422 seconds
+  Time since last request: 0.000261 seconds.
+  path: Assets/Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col5.png
+  artifactKey: Guid(ee5f07cb504e5b04dbdd32ef7d265c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col5.png using Guid(ee5f07cb504e5b04dbdd32ef7d265c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '7de320a1145ac80f318b08e9924024e7') in 0.018945 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 2
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.788 seconds
-Refreshing native plugins compatible for Editor in 1.41 ms, found 2 plugins.
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.579 seconds
-Domain Reload Profiling: 2368ms
-	BeginReloadAssembly (230ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (78ms)
-	RebuildCommonClasses (72ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (419ms)
-		LoadAssemblies (476ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (46ms)
-			TypeCache.Refresh (22ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1580ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (611ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (37ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (78ms)
-			ProcessInitializeOnLoadAttributes (437ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 6.92 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3078 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3594.
-Memory consumption went from 266.1 MB to 266.1 MB.
-Total: 13.747542 ms (FindLiveObjects: 1.110029 ms CreateObjectMapping: 0.920458 ms MarkObjects: 11.159924 ms  DeleteObjects: 0.552754 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col4.png
+  artifactKey: Guid(1732d531203aec748bc591f92d780684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col4.png using Guid(1732d531203aec748bc591f92d780684) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'fa6063779456bb1033675b6f900b9890') in 0.017204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.649 seconds
-Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.608 seconds
-Domain Reload Profiling: 2258ms
-	BeginReloadAssembly (240ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (88ms)
-	RebuildCommonClasses (65ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (284ms)
-		LoadAssemblies (361ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (21ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1609ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (685ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (44ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (483ms)
-			ProcessInitializeOnLoadMethodAttributes (65ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 4.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3597.
-Memory consumption went from 266.9 MB to 266.8 MB.
-Total: 6.084352 ms (FindLiveObjects: 0.417583 ms CreateObjectMapping: 0.391030 ms MarkObjects: 5.154226 ms  DeleteObjects: 0.119590 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col2.png
+  artifactKey: Guid(6242e2ca19f64494ba8e4ae07a3a2c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col2.png using Guid(6242e2ca19f64494ba8e4ae07a3a2c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '68c3e7c2165a1a63d17387c32fdfc62d') in 0.021809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000818 seconds.
+  path: Assets/Assets/ARCADE - FREE Racing Car/Textures/AFRC_Tex_Emission.png
+  artifactKey: Guid(573a5992a1e562d45a64f56dabbe47ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ARCADE - FREE Racing Car/Textures/AFRC_Tex_Emission.png using Guid(573a5992a1e562d45a64f56dabbe47ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '584e1cee8ce5c825613870f1874874d9') in 0.022329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col3.png
+  artifactKey: Guid(f5339e3a5ecdae64aa3afa490a1d892e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col3.png using Guid(f5339e3a5ecdae64aa3afa490a1d892e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'd2a4b2aa25efbca27657437a67f24682') in 0.029139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col1.png
+  artifactKey: Guid(8c508eea1762dd44cbf66593e03a6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col1.png using Guid(8c508eea1762dd44cbf66593e03a6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '9ec5f8ea8967489ccec2102c5d94abec') in 0.018556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.189433 seconds.
+  path: Assets/Assets/asset_free_Ukraine_cars/textures/all_colors.png
+  artifactKey: Guid(d1161dc66436b2642a23f788ba19d00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/asset_free_Ukraine_cars/textures/all_colors.png using Guid(d1161dc66436b2642a23f788ba19d00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '0299786362dd2f1114e8acdf29eac6ce') in 0.024949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Assets/ARCADE - FREE Racing Car/Skybox/Day/Textures/Bottom.png
+  artifactKey: Guid(d09270a5be941b14e8cd76b7d0347e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ARCADE - FREE Racing Car/Skybox/Day/Textures/Bottom.png using Guid(d09270a5be941b14e8cd76b7d0347e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '17765fe3a831f3e718ae40bbbdc92e61') in 0.169247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.207819 seconds.
+  path: Assets/Assets/ARCADE - FREE Racing Car/Skybox/Night/Textures/Bottom.png
+  artifactKey: Guid(e5ebd597679525a438f3f1e01f33e8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ARCADE - FREE Racing Car/Skybox/Night/Textures/Bottom.png using Guid(e5ebd597679525a438f3f1e01f33e8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '605dab90aa5b722cfe3f5be41d0a53a4') in 0.110481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'b2e527176cc987b0a2d1222382b663ed') in 0.031048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.301492 seconds.
+  path: Assets/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ee6276f40b4c288556e7f97ee1915f') in 0.334741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f778d7d2f784601d18841c1bb744a820') in 0.029618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Assets/ARCADE - FREE Racing Car/Skybox/Night/Textures/Middle.png
+  artifactKey: Guid(0dbf12657f27a3643a08e61b84c12483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ARCADE - FREE Racing Car/Skybox/Night/Textures/Middle.png using Guid(0dbf12657f27a3643a08e61b84c12483) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'cbefe706df385c45adfc0453afe0d2b1') in 0.150764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.654363 seconds.
+  path: Assets/Assets/ARCADE - FREE Racing Car/Skybox/Day/Textures/Middle.png
+  artifactKey: Guid(1547f812d72e8dc41aeb23f1ca2d0f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ARCADE - FREE Racing Car/Skybox/Day/Textures/Middle.png using Guid(1547f812d72e8dc41aeb23f1ca2d0f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '17a2cf41a4e823efc0e4e7a132d0da33') in 0.111376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Assets/ARCADE - FREE Racing Car/Scenes/More cars.png
+  artifactKey: Guid(d12c0013fcfea9e4a9ee272bfaaec870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ARCADE - FREE Racing Car/Scenes/More cars.png using Guid(d12c0013fcfea9e4a9ee272bfaaec870) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '2dfef32360cba84bf5aaef74e04ee68c') in 0.096520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.496420 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked1/Road New Marked1_4K_Albedo.tga
+  artifactKey: Guid(07f0dcef248edca4d802fd5160e79553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked1/Road New Marked1_4K_Albedo.tga using Guid(07f0dcef248edca4d802fd5160e79553) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'ef1e80f292f6bbfdd0d33215ac3c19d3') in 0.159140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked1/Road New Marked1_4K_AO.tga
+  artifactKey: Guid(8e5ae7b62b5aa2b4ba85bfafe65c8435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked1/Road New Marked1_4K_AO.tga using Guid(8e5ae7b62b5aa2b4ba85bfafe65c8435) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'b4080aee17c856bc6b85d2b7b18fe6d3') in 0.072416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.753448 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked1/Road New Marked1_4K_Displacement.tga
+  artifactKey: Guid(a54cad06605ee8e46a3b739bcce6c304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked1/Road New Marked1_4K_Displacement.tga using Guid(a54cad06605ee8e46a3b739bcce6c304) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '5e2473904d404327a09ebdc178fcedfd') in 0.122448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked1/Road New Marked1_4K_Gloss.tga
+  artifactKey: Guid(e4c294bfdf5989a4a85803b53e7a4257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked1/Road New Marked1_4K_Gloss.tga using Guid(e4c294bfdf5989a4a85803b53e7a4257) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '385941e2c9959823eebc86a571470610') in 0.130179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 153.704041 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked1/Road New Marked1_4K_Metalness.tga
+  artifactKey: Guid(366de375f1ba30841912f9080d60d752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked1/Road New Marked1_4K_Metalness.tga using Guid(366de375f1ba30841912f9080d60d752) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'f0fd4cb3037e872d6be3450e1dd20f4d') in 0.172112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked1/Road New Marked1_4K_Normal.tga
+  artifactKey: Guid(6aa65bf5e945f5c418f16ccd3622ef2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked1/Road New Marked1_4K_Normal.tga using Guid(6aa65bf5e945f5c418f16ccd3622ef2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '0718196a7d7016a6a9ca965341cd6e9a') in 0.305729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.182079 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked1/Road New Marked1_4K_Roughness.tga
+  artifactKey: Guid(1f70edf7326c3654597af3b94a35a11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked1/Road New Marked1_4K_Roughness.tga using Guid(1f70edf7326c3654597af3b94a35a11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '5f862de859877d6f3aa34b3736337238') in 0.132948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked2/Road New Marked2_4K_Albedo.tga
+  artifactKey: Guid(e5b1874220802974f9ab696e9797af11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked2/Road New Marked2_4K_Albedo.tga using Guid(e5b1874220802974f9ab696e9797af11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '110e9a460fae9b833562c07f940010b2') in 0.137309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.103561 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked2/Road New Marked2_4K_AO.tga
+  artifactKey: Guid(07d0914fc6906594baef007f0580cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked2/Road New Marked2_4K_AO.tga using Guid(07d0914fc6906594baef007f0580cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'f3d7ed26d79cf5fd7fb8e5f5bf12e381') in 0.081286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked2/Road New Marked2_4K_Displacement.tga
+  artifactKey: Guid(20b589f4d2c64314391375c2986ef991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked2/Road New Marked2_4K_Displacement.tga using Guid(20b589f4d2c64314391375c2986ef991) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '76138964fea804cba93b51616952260b') in 0.127478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.125584 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked2/Road New Marked2_4K_Gloss.tga
+  artifactKey: Guid(80e76ecfd4e034d4e89511c7a37c133c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked2/Road New Marked2_4K_Gloss.tga using Guid(80e76ecfd4e034d4e89511c7a37c133c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'f2bec631b7d1d575430097b92a2d8b59') in 0.126564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked2/Road New Marked2_4K_Metalness.tga
+  artifactKey: Guid(05e77187e7ec743468a1975e0399498c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked2/Road New Marked2_4K_Metalness.tga using Guid(05e77187e7ec743468a1975e0399498c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '6b71cdc21f59f59b2015311ae1ad4d72') in 0.096827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000626 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked2/Road New Marked2_4K_Normal.tga
+  artifactKey: Guid(276fcbce1191a8d4d969e8f559b43e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked2/Road New Marked2_4K_Normal.tga using Guid(276fcbce1191a8d4d969e8f559b43e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'a42a97807e7d1c0b030731e5216adfd2') in 0.161837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked2/Road New Marked2_4K_Roughness.tga
+  artifactKey: Guid(77a7cb26049aab04d93cd108dbb28456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked2/Road New Marked2_4K_Roughness.tga using Guid(77a7cb26049aab04d93cd108dbb28456) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '5442424138511ba450c9379f7281f2d6') in 0.135270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.248238 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked3/Road New Marked3_4K_Albedo.tga
+  artifactKey: Guid(1d4be980878093442a57d2d781442b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked3/Road New Marked3_4K_Albedo.tga using Guid(1d4be980878093442a57d2d781442b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'a329edc766b3b4dcc0f7218d1c2935d4') in 0.130423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked3/Road New Marked3_4K_AO.tga
+  artifactKey: Guid(9c7d4c8ef9f0dfb4f8dcef0afa6a212f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked3/Road New Marked3_4K_AO.tga using Guid(9c7d4c8ef9f0dfb4f8dcef0afa6a212f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '73ccd24894976f2d0184e51f4b3ad340') in 0.066746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.472154 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked3/Road New Marked3_4K_Displacement.tga
+  artifactKey: Guid(c61cd1f9d879a994b8d4d43830b05bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked3/Road New Marked3_4K_Displacement.tga using Guid(c61cd1f9d879a994b8d4d43830b05bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'b07c531b5e20418a4069d835a353ff54') in 0.115397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked3/Road New Marked3_4K_Gloss.tga
+  artifactKey: Guid(332979064d68c7641be9522bbdcdd8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked3/Road New Marked3_4K_Gloss.tga using Guid(332979064d68c7641be9522bbdcdd8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '77785c27500c56f2ee15a47b968fa935') in 0.156214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.532710 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked3/Road New Marked3_4K_Metalness.tga
+  artifactKey: Guid(fcc4edfc253e90a48b804e63193257a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked3/Road New Marked3_4K_Metalness.tga using Guid(fcc4edfc253e90a48b804e63193257a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '01d9d04170744480e9b6c5b00ce43953') in 0.089348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000762 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked3/Road New Marked3_4K_Normal.tga
+  artifactKey: Guid(70c5a01e0e4b83445b8c5652b8fcd6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked3/Road New Marked3_4K_Normal.tga using Guid(70c5a01e0e4b83445b8c5652b8fcd6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'bc79bd022d377b66053c09c9bb604b61') in 0.156106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.463635 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked3/Road New Marked3_4K_Roughness.tga
+  artifactKey: Guid(43997d12cd0fc3c4781c74c4b3877a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked3/Road New Marked3_4K_Roughness.tga using Guid(43997d12cd0fc3c4781c74c4b3877a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'ecb36d47951cd07eb1802e15a50d02da') in 0.133016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked4/Road New Marked4_4K_Albedo.tga
+  artifactKey: Guid(12cb584eb48d94c4ebe89e7104af3ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked4/Road New Marked4_4K_Albedo.tga using Guid(12cb584eb48d94c4ebe89e7104af3ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '7529b463ed06b5018190a7e8b329085a') in 0.153055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.124298 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked4/Road New Marked4_4K_AO.tga
+  artifactKey: Guid(358dd5ed7e917ba41a3578d5c8bfdca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked4/Road New Marked4_4K_AO.tga using Guid(358dd5ed7e917ba41a3578d5c8bfdca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '5fe45d1d27b7bfa79736753d5f19c9c4') in 0.061327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked4/Road New Marked4_4K_Displacement.tga
+  artifactKey: Guid(7d8bc55856963ee4a89dcbd1b19e4a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked4/Road New Marked4_4K_Displacement.tga using Guid(7d8bc55856963ee4a89dcbd1b19e4a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '4f3d9447564ac207f304d253cc1b3333') in 0.123042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.301706 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked4/Road New Marked4_4K_Gloss.tga
+  artifactKey: Guid(245e4369c36ee6f44a2be7c4a75bcf61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked4/Road New Marked4_4K_Gloss.tga using Guid(245e4369c36ee6f44a2be7c4a75bcf61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '812c206ae7322484f73665fe7a08a651') in 0.122799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked4/Road New Marked4_4K_Metalness.tga
+  artifactKey: Guid(0989aff638b396d42841fae49a7ba945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked4/Road New Marked4_4K_Metalness.tga using Guid(0989aff638b396d42841fae49a7ba945) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'cd70854d61fdb29dde798172cd817393') in 0.096245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.308102 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked4/Road New Marked4_4K_Normal.tga
+  artifactKey: Guid(02f4c1d11a178614f87ca531c2ba2c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked4/Road New Marked4_4K_Normal.tga using Guid(02f4c1d11a178614f87ca531c2ba2c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'e4bfa7855630e79c52f2212664e0eff4') in 0.139090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked4/Road New Marked4_4K_Roughness.tga
+  artifactKey: Guid(139327a87d8fa244eb65dfd27fbbbe35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked4/Road New Marked4_4K_Roughness.tga using Guid(139327a87d8fa244eb65dfd27fbbbe35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'f7b3dc55e0a9599253fae60d9083d0c7') in 0.136235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.114798 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked5/Road New Marked5_4K_Albedo.tga
+  artifactKey: Guid(95a611e545088fb4b9ab45dce26d7c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked5/Road New Marked5_4K_Albedo.tga using Guid(95a611e545088fb4b9ab45dce26d7c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '521128faf1b97b1a67f2467a1a0a4d27') in 0.128580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked5/Road New Marked5_4K_AO.tga
+  artifactKey: Guid(c6b626c9641a13f4f9f121bf1cfd5dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked5/Road New Marked5_4K_AO.tga using Guid(c6b626c9641a13f4f9f121bf1cfd5dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '313bb0c7bc04ad5fa73114bc28cca154') in 0.076019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.149066 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked5/Road New Marked5_4K_Displacement.tga
+  artifactKey: Guid(dcdda307c3e55664381e0d0b32359314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked5/Road New Marked5_4K_Displacement.tga using Guid(dcdda307c3e55664381e0d0b32359314) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '18e8e12812d61bd5150c8205277ad9b3') in 0.140863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked5/Road New Marked5_4K_Metalness.tga
+  artifactKey: Guid(386eae8b2784caf49aebe1103b99a5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked5/Road New Marked5_4K_Metalness.tga using Guid(386eae8b2784caf49aebe1103b99a5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '63aff416041eb33deea3e4e2cf4dd899') in 0.102824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked5/Road New Marked5_4K_Normal.tga
+  artifactKey: Guid(fe83fc1a9b970b045acd953af7422bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked5/Road New Marked5_4K_Normal.tga using Guid(fe83fc1a9b970b045acd953af7422bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'c68c50d97cf3fd0913aced168db79110') in 0.155098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked5/Road New Marked5_4K_Gloss.tga
+  artifactKey: Guid(67f2eb6f9a303614a8039d82a5f8e50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked5/Road New Marked5_4K_Gloss.tga using Guid(67f2eb6f9a303614a8039d82a5f8e50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '0f4855721239d50ec613be3c0016c046') in 0.151939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.105972 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked5/Road New Marked5_4K_Roughness.tga
+  artifactKey: Guid(a7c6ffb3caff82c4a9ebf092a63f320f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New Marked5/Road New Marked5_4K_Roughness.tga using Guid(a7c6ffb3caff82c4a9ebf092a63f320f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '82f8a78b6307c21895d1cb78a218c42d') in 0.123057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked1/Road New2 Marked1_4K_Albedo.tga
+  artifactKey: Guid(686d710eb08e01d4b80d98593d14526e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked1/Road New2 Marked1_4K_Albedo.tga using Guid(686d710eb08e01d4b80d98593d14526e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'a9a2ccb36442c8323815838adc24bc71') in 0.143133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.146373 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked1/Road New2 Marked1_4K_AO.tga
+  artifactKey: Guid(7bcebcb4aacda314b8123d4407d3072e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked1/Road New2 Marked1_4K_AO.tga using Guid(7bcebcb4aacda314b8123d4407d3072e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '210870476543aae68eaea1e7d918c673') in 0.075107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked1/Road New2 Marked1_4K_Displacement.tga
+  artifactKey: Guid(534f8556e41bc2945bca13b977a81fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked1/Road New2 Marked1_4K_Displacement.tga using Guid(534f8556e41bc2945bca13b977a81fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '4b57466e3c47e17334e72abbc0eb5b9c') in 0.140721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.330791 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked1/Road New2 Marked1_4K_Gloss.tga
+  artifactKey: Guid(1472f35e00c955247967d0d32d3e8e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked1/Road New2 Marked1_4K_Gloss.tga using Guid(1472f35e00c955247967d0d32d3e8e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '9c46d184463bb2ef2204182b6fc37e92') in 0.133202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked1/Road New2 Marked1_4K_Metalness.tga
+  artifactKey: Guid(1329339d1a5f8894cb3b71b4375b4d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked1/Road New2 Marked1_4K_Metalness.tga using Guid(1329339d1a5f8894cb3b71b4375b4d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '1615eb0f944930ad3b33f73ed419d8e8') in 0.083016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.348121 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked1/Road New2 Marked1_4K_Normal.tga
+  artifactKey: Guid(179ba261c2d84f64e9d090de860ba4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked1/Road New2 Marked1_4K_Normal.tga using Guid(179ba261c2d84f64e9d090de860ba4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'b1b643019eb99bb47aeae3389344e75a') in 0.140759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked1/Road New2 Marked1_4K_Roughness.tga
+  artifactKey: Guid(a6d7f65889c768348ac25920c93c76ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked1/Road New2 Marked1_4K_Roughness.tga using Guid(a6d7f65889c768348ac25920c93c76ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'fc8a910742b1e9f49e3ff6d9cb1d4e6a') in 0.142951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.108053 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked2/Road New2 Marked2_4K_Albedo.tga
+  artifactKey: Guid(35bdb406d31e8dd4f95a227eba8fd5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked2/Road New2 Marked2_4K_Albedo.tga using Guid(35bdb406d31e8dd4f95a227eba8fd5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '9aca1faa0c7b83eb754291549fa05070') in 0.127639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked2/Road New2 Marked2_4K_AO.tga
+  artifactKey: Guid(7e49e18206aaeeb4fb1e666083c016d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked2/Road New2 Marked2_4K_AO.tga using Guid(7e49e18206aaeeb4fb1e666083c016d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '316db6d91f1b006c8fb746d85030585b') in 0.041816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.201086 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked2/Road New2 Marked2_4K_Displacement.tga
+  artifactKey: Guid(cf0b30c74d606ae459673ca840cd9462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked2/Road New2 Marked2_4K_Displacement.tga using Guid(cf0b30c74d606ae459673ca840cd9462) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '71685effb4abdfa85891fbb2719fe1f6') in 0.135503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked2/Road New2 Marked2_4K_Gloss.tga
+  artifactKey: Guid(0cdaed7378a9af949918a5e14d7ca782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked2/Road New2 Marked2_4K_Gloss.tga using Guid(0cdaed7378a9af949918a5e14d7ca782) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '84beed7acedb7eb137fc16fd999eb1a4') in 0.141559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.128098 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked2/Road New2 Marked2_4K_Metalness.tga
+  artifactKey: Guid(0b49826735161664097c4d768e38208c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked2/Road New2 Marked2_4K_Metalness.tga using Guid(0b49826735161664097c4d768e38208c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '4a6c73334673837d19106a7e2fa0a2f2') in 0.085992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked2/Road New2 Marked2_4K_Normal.tga
+  artifactKey: Guid(20736706ce9daed47a61462ca6c3b57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked2/Road New2 Marked2_4K_Normal.tga using Guid(20736706ce9daed47a61462ca6c3b57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '6c36a4b3864ef380684f21d2111e9f7a') in 0.165212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.110620 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked2/Road New2 Marked2_4K_Roughness.tga
+  artifactKey: Guid(73d26dcf4a1fc3f488e79746ed672337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked2/Road New2 Marked2_4K_Roughness.tga using Guid(73d26dcf4a1fc3f488e79746ed672337) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '5f790740be251a902dcb052005d3cbaf') in 0.127487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked3/Road New2 Marked3_4K_Albedo.tga
+  artifactKey: Guid(4cd7a6ca993cb9f49974fa1f12fc161b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked3/Road New2 Marked3_4K_Albedo.tga using Guid(4cd7a6ca993cb9f49974fa1f12fc161b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '329d549a438a22dda24652d39e470588') in 0.148412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.126273 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked3/Road New2 Marked3_4K_AO.tga
+  artifactKey: Guid(1b092cfc11c65f746b83efe1cd5791f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked3/Road New2 Marked3_4K_AO.tga using Guid(1b092cfc11c65f746b83efe1cd5791f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '430845b3b73fa45eb382bf99ed477912') in 0.062728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked3/Road New2 Marked3_4K_Displacement.tga
+  artifactKey: Guid(43af3009368c9a444841aff29659fc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked3/Road New2 Marked3_4K_Displacement.tga using Guid(43af3009368c9a444841aff29659fc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '45c78866c7d2925f1253396e405e1d55') in 0.128125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.250942 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked3/Road New2 Marked3_4K_Gloss.tga
+  artifactKey: Guid(291757e999f947b4ba9b43e97eac96f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked3/Road New2 Marked3_4K_Gloss.tga using Guid(291757e999f947b4ba9b43e97eac96f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '9d71f5f2ec42d640362f6165c737148b') in 0.126601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked3/Road New2 Marked3_4K_Metalness.tga
+  artifactKey: Guid(0c478bb2bf9ad4d40b644158bf8c281d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked3/Road New2 Marked3_4K_Metalness.tga using Guid(0c478bb2bf9ad4d40b644158bf8c281d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '09dbd115f41c760d07650dc8bd4dbb5e') in 0.105119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.251816 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked3/Road New2 Marked3_4K_Normal.tga
+  artifactKey: Guid(8b38d285b0d824c49853be15a441ab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked3/Road New2 Marked3_4K_Normal.tga using Guid(8b38d285b0d824c49853be15a441ab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'dfa38385fb0503d786e86d1c76b86823') in 0.139241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked3/Road New2 Marked3_4K_Roughness.tga
+  artifactKey: Guid(782327b5e72c3c344a364745c2114a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked3/Road New2 Marked3_4K_Roughness.tga using Guid(782327b5e72c3c344a364745c2114a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '77043bd1fc4711c9fc899b53b6c78806') in 0.156199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007543 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked4/Road New2 Marked4_4K_Albedo.tga
+  artifactKey: Guid(117742d0d3058ca439b2d30058dbcba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked4/Road New2 Marked4_4K_Albedo.tga using Guid(117742d0d3058ca439b2d30058dbcba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '8ac933e465c6748494a669e234875c59') in 0.131170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked4/Road New2 Marked4_4K_AO.tga
+  artifactKey: Guid(13a436445a9162848a3f7d74824a3b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked4/Road New2 Marked4_4K_AO.tga using Guid(13a436445a9162848a3f7d74824a3b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '3e38c4c1faca73f943af54e07a3458d8') in 0.063981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.158650 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked4/Road New2 Marked4_4K_Displacement.tga
+  artifactKey: Guid(80ba2ee8df5a4e1458ada0cd47608c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked4/Road New2 Marked4_4K_Displacement.tga using Guid(80ba2ee8df5a4e1458ada0cd47608c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '015ccceee6fb1b50bf265a81fa9712c4') in 0.122722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked4/Road New2 Marked4_4K_Gloss.tga
+  artifactKey: Guid(55602e998f2bcd240b0e4779ed7fb922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked4/Road New2 Marked4_4K_Gloss.tga using Guid(55602e998f2bcd240b0e4779ed7fb922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'f5a4770a39b8f2b2ea28a6f8b5356283') in 0.130642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked4/Road New2 Marked4_4K_Metalness.tga
+  artifactKey: Guid(0d9509fd72adc824ab2d343ed6b76720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked4/Road New2 Marked4_4K_Metalness.tga using Guid(0d9509fd72adc824ab2d343ed6b76720) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '4482aa9c5b18f0d77a2b1b3352d4d48f') in 0.094400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked4/Road New2 Marked4_4K_Normal.tga
+  artifactKey: Guid(65571e316ece7c04dbe295abad408175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked4/Road New2 Marked4_4K_Normal.tga using Guid(65571e316ece7c04dbe295abad408175) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'b30760cb0955378bdb0e9d520a9a368e') in 0.155633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.110961 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked4/Road New2 Marked4_4K_Roughness.tga
+  artifactKey: Guid(89f8254e2bd89d24bbe38e3f3fe0bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked4/Road New2 Marked4_4K_Roughness.tga using Guid(89f8254e2bd89d24bbe38e3f3fe0bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '43ec363f290ba65856c6e58c300c293b') in 0.128891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked5/Road New2 Marked5_4K_Albedo.tga
+  artifactKey: Guid(19ef5b8ead0ca2d46a127ba6cf96e617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked5/Road New2 Marked5_4K_Albedo.tga using Guid(19ef5b8ead0ca2d46a127ba6cf96e617) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'fbea17d8736beb528c091c3497b76798') in 0.140210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked5/Road New2 Marked5_4K_AO.tga
+  artifactKey: Guid(791e7b9db8b7b5d489667e0c86b00c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked5/Road New2 Marked5_4K_AO.tga using Guid(791e7b9db8b7b5d489667e0c86b00c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '7031d0e51e279231f93234f6c5ab75af') in 0.065302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked5/Road New2 Marked5_4K_Displacement.tga
+  artifactKey: Guid(ceff2649bbfdb66458fc858c3165474e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked5/Road New2 Marked5_4K_Displacement.tga using Guid(ceff2649bbfdb66458fc858c3165474e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'd88d49d9bd6fdc5d1b27582e2e379559') in 0.148812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.157571 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked5/Road New2 Marked5_4K_Gloss.tga
+  artifactKey: Guid(73b02c8f6d88b5741b4a26a4a3fb8757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked5/Road New2 Marked5_4K_Gloss.tga using Guid(73b02c8f6d88b5741b4a26a4a3fb8757) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '1c831fb4d438934ca20a07704076c2b7') in 0.137587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked5/Road New2 Marked5_4K_Metalness.tga
+  artifactKey: Guid(0ddc6cb1c37aeb1419da28fff7e9a1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked5/Road New2 Marked5_4K_Metalness.tga using Guid(0ddc6cb1c37aeb1419da28fff7e9a1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'a481ff269a41c82c325cd205bc992d4b') in 0.099078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.141429 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked5/Road New2 Marked5_4K_Normal.tga
+  artifactKey: Guid(79e6f7b183c26604895ce0165582540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked5/Road New2 Marked5_4K_Normal.tga using Guid(79e6f7b183c26604895ce0165582540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '2b8010f79574920e7fb339522bde6a96') in 0.143315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked5/Road New2 Marked5_4K_Roughness.tga
+  artifactKey: Guid(035b0cc8465bcd4478ec8862b26e36aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Road Materials/Textures/Road New Marked/Road New2 Marked5/Road New2 Marked5_4K_Roughness.tga using Guid(035b0cc8465bcd4478ec8862b26e36aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '742d8b003b3e32573bffcf038e8d023e') in 0.143834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.115001 seconds.
+  path: Assets/Assets/ARCADE - FREE Racing Car/Skybox/Night/Textures/Top.png
+  artifactKey: Guid(e4d8993639f071845bb71cdd5ccaf886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ARCADE - FREE Racing Car/Skybox/Night/Textures/Top.png using Guid(e4d8993639f071845bb71cdd5ccaf886) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '4266a659f8bf230a395b3d1800efa54d') in 0.113055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Assets/ARCADE - FREE Racing Car/Skybox/Day/Textures/Top.png
+  artifactKey: Guid(0ea79d67094ea414ca3f589eeac91a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ARCADE - FREE Racing Car/Skybox/Day/Textures/Top.png using Guid(0ea79d67094ea414ca3f589eeac91a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'a2a4ca4a22ec96736579e3c70f397976') in 0.129777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
