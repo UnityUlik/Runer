@@ -1,1 +1,1 @@
-/Applications/unity-projects/runer/RunerGame
+/Users/ulijlapin/Runer
