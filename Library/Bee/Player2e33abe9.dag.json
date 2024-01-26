@@ -323,7 +323,14 @@
         315,
         316,
         317,
-        318
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -8391,7 +8398,7 @@
       "DisplayName": "Writing build.gradle_va3g.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 202464,
-      "PayloadLength": 4319,
+      "PayloadLength": 4421,
       "PayloadDebugContentSnippet": "{\"AndroidPlayerBuildProgram.Ac",
       "Inputs": [],
       "Outputs": [
@@ -8412,6 +8419,7 @@
         "/Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/settingsTemplate.gradle",
         "/Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/AndroidPlayer/Tools/UnityProGuardTemplate.txt",
         "Library/Bee/artifacts/csharpactions/build.gradle_va3g.info",
+        "/Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/AndroidPlayer/.DS_Store",
         "/Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/AndroidPlayer/AndroidPlayerBuildProgram.Data.dll",
         "/Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/AndroidPlayer/AndroidPlayerBuildProgram.exe",
         "/Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/AndroidPlayer/modules.asset",
@@ -8515,7 +8523,7 @@
       "Annotation": "WriteText /Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values/strings.xml",
       "DisplayName": "Writing strings.xml",
       "ActionType": "WriteFile",
-      "PayloadOffset": 206916,
+      "PayloadOffset": 207018,
       "PayloadLength": 170,
       "PayloadDebugContentSnippet": "<?xml version=\"1.0\" encoding=\"",
       "Inputs": [],
@@ -8549,64 +8557,148 @@
       "DebugActionIndex": 298
     },
     {
-      "Annotation": "CopyFiles /Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml",
-      "DisplayName": "Copying app_icon.xml",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "/Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/AndroidPlayer/Apk/res/mipmap-anydpi-v26/app_icon.xml"
-      ],
-      "Outputs": [
-        "/Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml"
-      ],
-      "DebugActionIndex": 299
-    },
-    {
-      "Annotation": "CopyFiles /Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml",
-      "DisplayName": "Copying app_icon_round.xml",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "/Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/AndroidPlayer/Apk/res/mipmap-anydpi-v26/app_icon_round.xml"
-      ],
-      "Outputs": [
-        "/Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml"
-      ],
-      "DebugActionIndex": 300
-    },
-    {
       "Annotation": "CopyFiles /Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png",
       "DisplayName": "Copying app_icon.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "/Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/AndroidPlayer/Apk/res/mipmap-mdpi/app_icon.png"
+        "Temp/StagingArea/res.mdpi.app_icon.png"
       ],
       "Outputs": [
         "/Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png"
       ],
+      "DebugActionIndex": 299
+    },
+    {
+      "Annotation": "CopyFiles /Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon.png",
+      "DisplayName": "Copying app_icon.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.ldpi.app_icon.png"
+      ],
+      "Outputs": [
+        "/Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon.png"
+      ],
+      "DebugActionIndex": 300
+    },
+    {
+      "Annotation": "CopyFiles /Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon.png",
+      "DisplayName": "Copying app_icon.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.hdpi.app_icon.png"
+      ],
+      "Outputs": [
+        "/Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon.png"
+      ],
       "DebugActionIndex": 301
     },
     {
-      "Annotation": "CopyFiles /Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png",
-      "DisplayName": "Copying ic_launcher_background.png",
+      "Annotation": "CopyFiles /Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon.png",
+      "DisplayName": "Copying app_icon.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "/Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/AndroidPlayer/Apk/res/mipmap-mdpi/ic_launcher_background.png"
+        "Temp/StagingArea/res.xhdpi.app_icon.png"
       ],
       "Outputs": [
-        "/Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png"
+        "/Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon.png"
       ],
       "DebugActionIndex": 302
     },
     {
-      "Annotation": "CopyFiles /Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
-      "DisplayName": "Copying ic_launcher_foreground.png",
+      "Annotation": "CopyFiles /Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon.png",
+      "DisplayName": "Copying app_icon.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "/Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/AndroidPlayer/Apk/res/mipmap-mdpi/ic_launcher_foreground.png"
+        "Temp/StagingArea/res.xxhdpi.app_icon.png"
       ],
       "Outputs": [
-        "/Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+        "/Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon.png"
       ],
       "DebugActionIndex": 303
+    },
+    {
+      "Annotation": "CopyFiles /Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon.png",
+      "DisplayName": "Copying app_icon.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xxxhdpi.app_icon.png"
+      ],
+      "Outputs": [
+        "/Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon.png"
+      ],
+      "DebugActionIndex": 304
+    },
+    {
+      "Annotation": "CopyFiles /Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon_round.png",
+      "DisplayName": "Copying app_icon_round.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.ldpi.app_icon_round.png"
+      ],
+      "Outputs": [
+        "/Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon_round.png"
+      ],
+      "DebugActionIndex": 305
+    },
+    {
+      "Annotation": "CopyFiles /Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon_round.png",
+      "DisplayName": "Copying app_icon_round.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.mdpi.app_icon_round.png"
+      ],
+      "Outputs": [
+        "/Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon_round.png"
+      ],
+      "DebugActionIndex": 306
+    },
+    {
+      "Annotation": "CopyFiles /Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon_round.png",
+      "DisplayName": "Copying app_icon_round.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.hdpi.app_icon_round.png"
+      ],
+      "Outputs": [
+        "/Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon_round.png"
+      ],
+      "DebugActionIndex": 307
+    },
+    {
+      "Annotation": "CopyFiles /Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon_round.png",
+      "DisplayName": "Copying app_icon_round.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xhdpi.app_icon_round.png"
+      ],
+      "Outputs": [
+        "/Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon_round.png"
+      ],
+      "DebugActionIndex": 308
+    },
+    {
+      "Annotation": "CopyFiles /Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon_round.png",
+      "DisplayName": "Copying app_icon_round.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xxhdpi.app_icon_round.png"
+      ],
+      "Outputs": [
+        "/Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon_round.png"
+      ],
+      "DebugActionIndex": 309
+    },
+    {
+      "Annotation": "CopyFiles /Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon_round.png",
+      "DisplayName": "Copying app_icon_round.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xxxhdpi.app_icon_round.png"
+      ],
+      "Outputs": [
+        "/Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon_round.png"
+      ],
+      "DebugActionIndex": 310
     },
     {
       "Annotation": "CopyFiles /Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so",
@@ -8618,7 +8710,7 @@
       "Outputs": [
         "/Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so"
       ],
-      "DebugActionIndex": 304
+      "DebugActionIndex": 311
     },
     {
       "Annotation": "SourceBuildPlayerFiles",
@@ -8626,11 +8718,11 @@
       "Inputs": [],
       "Outputs": [],
       "ToBuildDependencies": [
-        304,
-        306
+        311,
+        313
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 305
+      "DebugActionIndex": 312
     },
     {
       "Annotation": "CopyFiles /Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so",
@@ -8642,7 +8734,7 @@
       "Outputs": [
         "/Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so"
       ],
-      "DebugActionIndex": 306
+      "DebugActionIndex": 313
     },
     {
       "Annotation": "CopyFiles /Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmonobdwgc-2.0.so",
@@ -8654,7 +8746,7 @@
       "Outputs": [
         "/Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmonobdwgc-2.0.so"
       ],
-      "DebugActionIndex": 307
+      "DebugActionIndex": 314
     },
     {
       "Annotation": "CopyFiles /Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libMonoPosixHelper.so",
@@ -8666,7 +8758,7 @@
       "Outputs": [
         "/Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libMonoPosixHelper.so"
       ],
-      "DebugActionIndex": 308
+      "DebugActionIndex": 315
     },
     {
       "Annotation": "CopyFiles /Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmono-native.so",
@@ -8678,20 +8770,20 @@
       "Outputs": [
         "/Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmono-native.so"
       ],
-      "DebugActionIndex": 309
+      "DebugActionIndex": 316
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info",
       "DisplayName": "Writing LauncherManifestDiag.txt_zvqu.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 207188,
+      "PayloadOffset": 207290,
       "PayloadLength": 19293,
       "PayloadDebugContentSnippet": "{\"AndroidPlayerBuildProgram.Ac",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info"
       ],
-      "DebugActionIndex": 310
+      "DebugActionIndex": 317
     },
     {
       "Annotation": "Generate Manifests Library/Bee/artifacts/Android/Manifest/LauncherManifestDiag.txt (+3 others)",
@@ -8794,6 +8886,7 @@
         "/Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/AndroidPlayer/Apk/LauncherManifest.xml",
         "/Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/AndroidPlayer/Apk/UnityManifest.xml",
         "Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info",
+        "/Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/AndroidPlayer/.DS_Store",
         "/Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/AndroidPlayer/AndroidPlayerBuildProgram.Data.dll",
         "/Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/AndroidPlayer/AndroidPlayerBuildProgram.exe",
         "/Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/AndroidPlayer/modules.asset",
@@ -8903,12 +8996,12 @@
         282,
         284,
         286,
-        310
+        317
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 311
+      "DebugActionIndex": 318
     },
     {
       "Annotation": "CopyFiles /Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libmain.so",
@@ -8920,7 +9013,7 @@
       "Outputs": [
         "/Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libmain.so"
       ],
-      "DebugActionIndex": 312
+      "DebugActionIndex": 319
     },
     {
       "Annotation": "CopyFiles /Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libmonobdwgc-2.0.so",
@@ -8932,7 +9025,7 @@
       "Outputs": [
         "/Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libmonobdwgc-2.0.so"
       ],
-      "DebugActionIndex": 313
+      "DebugActionIndex": 320
     },
     {
       "Annotation": "CopyFiles /Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libunity.so",
@@ -8944,20 +9037,20 @@
       "Outputs": [
         "/Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libunity.so"
       ],
-      "DebugActionIndex": 314
+      "DebugActionIndex": 321
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/unity_app_guid_k4tg.info",
       "DisplayName": "Writing unity_app_guid_k4tg.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 226573,
+      "PayloadOffset": 226675,
       "PayloadLength": 12684,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/unity_app_guid_k4tg.info"
       ],
-      "DebugActionIndex": 315
+      "DebugActionIndex": 322
     },
     {
       "Annotation": "GuidGenerator /Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid",
@@ -9064,6 +9157,7 @@
         "/Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-linux/mscorlib.dll",
         "/Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/AndroidPlayer/Data/unity default resources",
         "Library/Bee/artifacts/csharpactions/unity_app_guid_k4tg.info",
+        "/Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/AndroidPlayer/.DS_Store",
         "/Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/AndroidPlayer/AndroidPlayerBuildProgram.Data.dll",
         "/Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/AndroidPlayer/AndroidPlayerBuildProgram.exe",
         "/Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/AndroidPlayer/modules.asset",
@@ -9078,25 +9172,25 @@
       ],
       "ToBuildDependencies": [
         6,
-        315
+        322
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 316
+      "DebugActionIndex": 323
     },
     {
       "Annotation": "WriteText /Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint",
       "DisplayName": "Writing com.android.games.engine.build_fingerprint",
       "ActionType": "WriteFile",
-      "PayloadOffset": 239433,
+      "PayloadOffset": 239535,
       "PayloadLength": 65,
       "PayloadDebugContentSnippet": "2022.3.8f1;Mono;Release;StripE",
       "Inputs": [],
       "Outputs": [
         "/Users/ulijlapin/Runer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint"
       ],
-      "DebugActionIndex": 317
+      "DebugActionIndex": 324
     },
     {
       "Annotation": "Player",
@@ -9312,16 +9406,23 @@
         302,
         303,
         304,
+        305,
         306,
         307,
         308,
         309,
+        310,
         311,
+        313,
+        314,
+        315,
         316,
-        317
+        318,
+        323,
+        324
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 318
+      "DebugActionIndex": 325
     }
   ],
   "FileSignatures": [
@@ -9626,8 +9727,8 @@
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "SourceBuildPlayerFiles": 305,
-          "Player": 318
+          "SourceBuildPlayerFiles": 312,
+          "Player": 325
         }
 ,  "DefaultNodes": [
     0

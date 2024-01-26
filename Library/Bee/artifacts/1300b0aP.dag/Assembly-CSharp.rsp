@@ -312,6 +312,8 @@
 "Assets/Scripts/ButtonRestart.cs"
 "Assets/Scripts/CarsSpeed.cs"
 "Assets/Scripts/Health.cs"
+"Assets/Scripts/MountainSpawner.cs"
+"Assets/Scripts/MounteinSpeed.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/PlayerFallDestroyer.cs"
 "Assets/Scripts/Removing.cs"
