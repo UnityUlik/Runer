@@ -357,8 +357,12 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/ButtonContinue.cs"
 "Assets/Scripts/ButtonMenu.cs"
+"Assets/Scripts/ButtonPlay.cs"
+"Assets/Scripts/ButtonQuit.cs"
 "Assets/Scripts/ButtonRestart.cs"
 "Assets/Scripts/CarsSpeed.cs"
+"Assets/Scripts/Coins.cs"
+"Assets/Scripts/CoinSpeed.cs"
 "Assets/Scripts/Health.cs"
 "Assets/Scripts/MountainSpawner.cs"
 "Assets/Scripts/MounteinSpeed.cs"
@@ -368,6 +372,8 @@
 "Assets/Scripts/Road.cs"
 "Assets/Scripts/ScoreCount.cs"
 "Assets/Scripts/Spawner.cs"
+"Assets/Scripts/StoreButton.cs"
+"Assets/Scripts/StoreUI.cs"
 -langversion:9.0
 
 /deterministic

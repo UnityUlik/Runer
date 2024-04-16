@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class ButtonContinue : MonoBehaviour
 {
-    public GameObject MenuButton;
-    public GameObject RestartButton;
-    public GameObject ContinueButton;
-    public GameObject MenuText;
-    public GameObject Right;
+    public GameObject HighScore;
+    public GameObject Score;
     public GameObject Left;
+    public GameObject Right;
+    public GameObject Heart;
+    public GameObject MenuButton;
+    public GameObject Menu;
+    public GameObject ContinueButton;
+    public GameObject QuitToMenuButton;
     public AudioSource Phonk;
     public AudioSource Drift;
 
@@ -17,12 +20,15 @@ public class ButtonContinue : MonoBehaviour
     {
         Phonk.enabled = true;
         Drift.enabled = true;
-        MenuButton.SetActive(true);
-        RestartButton.SetActive(false);
         ContinueButton.SetActive(false);
-        MenuText.SetActive(false);
-        Right.SetActive(true);
+        QuitToMenuButton.SetActive(false);
+        Menu.SetActive(false);
+        HighScore.SetActive(true);
+        Score.SetActive(true);
         Left.SetActive(true);
+        Right.SetActive(true);
+        Heart.SetActive(true);
+        MenuButton.SetActive(true);
         Time.timeScale = 1f;
     }
 }

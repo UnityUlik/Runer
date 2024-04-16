@@ -27,6 +27,11 @@ public class ScoreCount : MonoBehaviour
             Destroy(other.gameObject);
             HighScoreCounter();
         }
+
+        if(other.gameObject.tag == "Coin")
+        {
+            Destroy(other.gameObject);
+        }
     }
 
     public void HighScoreCounter()

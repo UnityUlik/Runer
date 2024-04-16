@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class ButtonMenu : MonoBehaviour
 {
-    public GameObject MenuButton;
-    public GameObject RestartButton;
-    public GameObject ContinueButton;
-    public GameObject MenuText;
-    public GameObject Right;
     public GameObject Left;
+    public GameObject Right;
+    public GameObject MenuButton;
+    public GameObject Menu;
+    public GameObject ContinueButton;
+    public GameObject QuitToMenuButton;
     public AudioSource Phonk;
     public AudioSource Drift;
 
@@ -17,14 +17,14 @@ public class ButtonMenu : MonoBehaviour
     {
         Phonk.enabled = false;
         Drift.enabled = false;
+        ContinueButton.SetActive(true);
+        QuitToMenuButton.SetActive(true);
+        Menu.SetActive(true);
+        Left.SetActive(false);
+        Right.SetActive(false);
+        MenuButton.SetActive(false);
         CarsSpeed._carSpeed = 0f;
         Road._offset = 0f;
-        MenuButton.SetActive(false);
-        MenuText.SetActive(true);
-        RestartButton.SetActive(true);
-        ContinueButton.SetActive(true);
-        Right.SetActive(false);
-        Left.SetActive(false);
         Time.timeScale = 0f;
     }
 }
