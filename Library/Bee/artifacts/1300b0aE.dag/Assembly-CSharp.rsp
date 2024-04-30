@@ -360,6 +360,7 @@
 "Assets/Scripts/ButtonPlay.cs"
 "Assets/Scripts/ButtonQuit.cs"
 "Assets/Scripts/ButtonRestart.cs"
+"Assets/Scripts/CameraStore.cs"
 "Assets/Scripts/CarsSpeed.cs"
 "Assets/Scripts/Coins.cs"
 "Assets/Scripts/CoinSpeed.cs"
